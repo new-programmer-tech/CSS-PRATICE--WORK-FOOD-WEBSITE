@@ -11,8 +11,8 @@
 #navbar
 {
     display:flex;
- 
-   
+    background-color: rgb(129, 124, 124);
+    
 }
 
 #navbar > ul{
@@ -27,6 +27,7 @@
     text-decoration: none;
     list-style: none;
     margin-right:2rem;
+    color:#fff;
 }
 
 .logo img{
@@ -39,6 +40,7 @@
     margin-right: 2rem;
     align-self: center;
     margin:10px 10px;
+    margin-right:4rem;
 }
 
 .logo{
