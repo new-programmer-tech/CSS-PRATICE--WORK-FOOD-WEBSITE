@@ -111,7 +111,15 @@
    width: 25%;
    background-color:rgb(182, 54, 122);   
    box-shadow: rgba(0, 0, 0, 0.19) 10px 10px 20px, rgba(0, 0, 0, 0.23) 10px 16px 16px;
+   cursor: pointer;
 }
+
+.card1:hover{
+    /* border:2px solid red; */
+    transform:scale(1.1);
+    transition:all 0.5s;
+ }
+ 
 
 
 .card1 img{
@@ -133,8 +141,6 @@
 {
    margin-bottom:.5rem;
 }
-
-
 
 .card-content h2{
     display: flex;
