@@ -113,13 +113,16 @@
    box-shadow: rgba(0, 0, 0, 0.19) 10px 10px 20px, rgba(0, 0, 0, 0.23) 10px 16px 16px;
    cursor: pointer;
    border-radius: 20px;
+   transition:all 0.6s;
+   transition-timing-function:ease-in;
    
 }
 
 .card1:hover{
     /* border:2px solid red; */
     transform:scale(1.1);
-    transition:all 0.8s;
+
+   
  }
  
 .card1 img{
@@ -128,7 +131,7 @@
     object-fit: cover; 
     border-top-left-radius:20px;
     border-top-right-radius:20px;
-    
+
 }
 
 .card-content{
